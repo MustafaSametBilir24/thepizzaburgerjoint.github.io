@@ -1,0 +1,769 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    transition: 0.2s ease;
+}
+
+body{
+    background-color: orange;
+}
+
+#menu, #specials, #about, #contact, #reviews, #footer{
+    padding-top: 14rem;
+}
+
+section{
+    padding: 0 7%;
+}
+
+/* Header Start */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    background-color: white;
+    border-radius: 20rem;
+    z-index: 10;
+    position: sticky;
+    top: 0%;
+}
+
+.logo img{
+    height: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: 3rem;
+    color: black;
+}
+
+#bar {
+    display: none;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+.header .buttons .button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+    border: none;
+}
+
+.searchbar{
+    display: none;
+}
+
+.searchbar i{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.searchbar .search{
+    border: none;
+    width: 100%;
+    height: 4rem;
+    padding: 1.5rem;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+}
+
+
+.header .searchbar.active{
+    display: flex;
+    width: 50rem;
+    position: absolute;
+    top: 110%;
+    right: 10.8%;
+    background-color: white;
+    align-items: center;
+    border-radius: 20rem;
+}
+
+/* Header End */
+
+
+/* Home Page Start */
+
+.home{
+    min-height: 100vh;
+    background-image: url(images/pexels-photo-by-twelfth-night-1105439946-26925530.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -14.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.home .content {
+    max-width: 80rem;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    background-color: orange;
+    color: white;
+    border-radius: 15rem;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+
+
+
+.home .content h1{
+    font-size: 5.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    line-height: 1.6;
+}
+
+.home .content p{
+    margin: 1.5rem 0;
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    line-height: 1.6;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    background-color: orange;
+    color: white;
+    border-radius: 15rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+}
+/* Home Page End */
+
+
+/* Menu Section Start */
+
+.menu{
+    background-color: orange;
+}
+
+.menu h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+.menubox{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.foodcontainer{
+    background-color: white;
+    max-width: 40rem;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.price{
+    display: inline-block;
+}
+.container-head p{
+    font-size: 3rem;
+    margin: 0 2rem;
+    margin-top: 3rem;
+}
+
+.container-head img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 3rem;
+}
+
+.container-head span{
+    text-decoration: line-through;
+    font-size: 2rem;
+}
+
+.container-bottom .btn{
+    margin: 3rem 2rem;
+}
+
+/* Menu Section End */
+
+
+/* Specials Start */
+
+.specialbox{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.specials h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+
+.sfoodcontainer{
+    background-color: white;
+    max-width: 53.6rem;
+    border-radius: 4rem;
+    overflow: hidden;
+}
+
+
+.scontainer-head img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.scontainer-head p{
+    font-size: 3rem;
+    text-align: center;
+    margin: 8rem 0;
+}
+.scontainer-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+}
+
+.scontainer-bottom .price{
+    font-size: 4rem;
+}
+
+.scontainer-bottom .icon{
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.scontainer-bottom .icon i{
+    color: black
+}
+
+.scontainer-bottom .icon i:hover{
+    color: orange;
+}
+
+/* Specials End */
+
+
+/* About us Start */
+
+.about h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+
+.about .row .image{
+    margin-bottom: 4rem;
+    max-width: 120rem;
+    margin:auto;
+}
+
+
+.about .row .image img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+
+.about .row .content{
+    font-size: 3rem;
+    max-width: 120rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about .row .content p{
+    text-indent: 3rem;
+    line-height: 1.8;
+}
+
+.about .row .content a{
+    background-color: black;
+    margin-top: 4rem;
+}
+
+/* About us End */
+
+
+/* Review Start */
+
+.reviews h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+.reviewbox{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.reviewcontainer{
+    background-color: white;
+    max-width: 53.6rem;
+    border-radius: 4rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewcontainer .reviewimage{
+    width: 10rem;
+    object-fit: cover;
+    background-color: transparent;
+}
+
+.reviewcontainer .portrait{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewcontainer .stars{
+    width: 25%;
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.reviewcontainer p{
+    font-size: 2rem;
+    text-indent: 2rem;
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.reviewcontainer h2{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+.rcontainer-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    gap: 18rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Review End */
+
+
+/* Contact Start */
+
+.contact h1 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.contact fieldset {
+    background-color: black;
+    padding: 6rem 8rem;
+    width: 100%;
+    border: 0.3rem solid white;
+    border-radius: 5rem;
+}
+
+.contact legend {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+.contact i {
+    color: white;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+.contact .btn{
+    margin-top: 3rem;
+    font-size: 2rem;
+    border-radius: 15rem;
+}
+
+/* Contact End */
+
+
+/* Footer Start */
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer .icons a i{
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 2rem;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+}
+
+.footer .icons a i:hover{
+    opacity: 0.5;
+}
+
+.footer .social .fnavbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.footer .social .fnavbar a{
+    padding: 1.5rem 2rem;
+    font-size: 2rem;
+    background-color: orange;
+    color: white;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.footer .social .fnavbar a:hover{
+    opacity: 0.8;
+}
+
+.footer .social p{
+    color: white;
+    font-size: 2rem;
+    padding: 3rem 0;
+}
+
+@media (max-width: 989px) {
+    /* Header Responsive */
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .navbar a {
+        margin: 1rem 0;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    #bar {
+        display: block;
+    }
+    
+    .logo img{
+        height: 8rem;
+    }
+
+    .header .searchbar.active{
+        width: 35rem;
+    }
+
+    /* Home Page Responsive */
+
+    .home{
+        margin-top: -12.2rem;
+    }
+    
+    .home .content h1{
+        font-size: 5rem;
+    }
+    
+    .home .content p{
+        font-size: 2rem;
+    }
+
+    /* About Responsive */
+
+    .about .row .content{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width: 643px){
+
+    /* Header Responsive */
+
+    .logo img{
+        height: 7.5rem;
+    }
+
+    .header .searchbar.active{
+        width: 26rem;
+    }
+
+    /* Home Page Responsive */
+
+    .home{
+        margin-top: -11.7rem;
+    }
+
+    .home .content h1{
+        font-size: 4.6rem;
+        line-height: 1.4;
+    }
+    
+    .home .content p{
+        font-size: 1.9rem;
+        line-height: 1.4;
+    }
+
+    /* About Responsive */
+
+    .about .row .content{
+        font-size: 2.2rem;
+    }
+
+    /* Review Responsive */
+
+    .rcontainer-head{
+        gap: 12rem;
+    }
+    /* Contact Responsive */
+
+    .contact fieldset {
+        padding: 4.5rem 6rem;
+    }
+    
+    .contact legend {
+        font-size: 3.5rem;
+    }
+     
+    .contact input,
+    .contact textarea {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 423px){
+
+    /* Header Responsive */
+
+    .logo img{
+        height: 7rem;
+    }
+
+    .menu h1, .specials h1, .about h1, .reviews h1, .contact h1{
+        font-size: 3.5rem;
+    }
+
+    .header .searchbar.active{
+        width: 18rem;
+    }
+
+    /* Home Page Responsive */
+
+    .home{
+        margin-top: -11.2rem;
+    }
+
+    .home .content h1{
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .home .content p{
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    #homebtn{
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    /* About Responsive */
+
+    .about .row .content{
+        font-size: 2rem;
+    }
+
+    /* Specials Responsive */
+
+    .scontainer-head p{
+        font-size: 2.8rem;
+        margin: 6rem 0;
+    }
+
+    .scontainer-bottom .price{
+        font-size: 3.3rem;
+    }
+    
+    .scontainer-bottom .icon{
+        font-size: 3.3rem;
+    }
+
+    .scontainer-bottom{
+        margin-bottom: 4rem;
+    }
+
+    /* Review Responsive */
+
+    .reviewcontainer .stars{
+        width: 35%;
+    }
+
+    .rcontainer-head{
+        gap: 3rem;
+    }
+
+    .reviewcontainer p{
+        font-size: 1.8rem;
+        text-indent: 1.5rem;
+        padding: 0 2rem;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    /* Contact Responsive */
+
+    .contact fieldset {
+        padding: 4rem 5rem;
+    }
+    
+    .contact legend {
+        font-size: 3rem;
+    }
+     
+    .contact input,
+    .contact textarea {
+        font-size: 1.4rem;
+    }
+
+    .contact .btn{
+        font-size: 1.8rem;
+    }
+
+    /* Footer Responsive */
+
+    .footer .icons a i{
+        width: 4.5rem;
+        height: 4.5rem;
+        line-height: 4.5rem;
+        font-size: 1.8rem;
+    }
+
+    .footer .social .fnavbar a{
+        padding: 1.2rem 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .footer .social p{
+        font-size: 1.8rem;
+    }
+}

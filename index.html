@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Burger Joint</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="images/favicon-16x16.png">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c0b1a3ab48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="images/food-2074638_640.png" alt="hamburger">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#specials">Specials</a>
+            <a href="#reviews">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="buttons">
+            <button class="button" id="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="button">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="bar" class="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>      
+        <div class="searchbar">
+            <input type="text" placeholder="Search" class="search" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h1>WELCOME TO THE PIZZA BURGER JOINT</h1>
+            <p>Whether you're in the mood for a juicy burger or a cheesy slice of pizza, we guarantee a delightful experience that will keep you coming back for more!</p>
+            <a href="#" class="btn" id="homebtn">Order Now</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1>Today's Menu</h1>
+        <div class="menubox">
+            <div class="foodcontainer">
+                <div class="container-head">
+                    <p>Creamy Delight Burger</p>
+                    <img src="images/pexels-horizon-content-2100060-3738730.jpg" alt="Creamy Delight Burger">
+                    <p class="price">$30.99</p><span>40.99</span>
+                </div>
+                <div class="container-bottom">
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
+            <div class="foodcontainer">
+                <div class="container-head">
+                    <p>Mozzarella Dream Pizza</p>
+                    <img src="images/pizza-5179939_640.jpg" alt="Mozzarella Dream Pizza">
+                    <p class="price">$40.99</p><span>50.99</span>
+                </div>
+                <div class="container-bottom">
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
+            <div class="foodcontainer">
+                <div class="container-head">
+                    <p>Mega Stack Burger</p>
+                    <img src="images/burger-6507710_640.jpg" alt="Mega Stack Burger">
+                    <p class="price">$50.99</p><span>60.99</span>
+                </div>
+                <div class="container-bottom">
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
+            <div class="foodcontainer">
+                <div class="container-head">
+                    <p>Spicy Sausage Pizza</p>
+                    <img src="images/pizza-7863716_640.jpg" alt="Spicy Sausage Pizza">
+                    <p class="price">$45.99</p><span>55.99</span>
+                </div>
+                <div class="container-bottom">
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="specials" id="specials">
+        <h1>Chef's Specials</h1>
+        <div class="specialbox">
+            <div class="sfoodcontainer">
+                <div class="scontainer-head">
+                    <img src="images/pizza-5179939_640.jpg" alt="Mozzarella Dream Pizza">
+                    <p>Mozzarella Dream Pizza</p>
+                </div>
+                <div class="scontainer-bottom">
+                    <div class="price">
+                        <p>$50.99</p>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sfoodcontainer">
+                <div class="scontainer-head">
+                    <img src="images/pexels-jonathanborba-2983101 (1).jpg" alt="Golden Crunch Burger">
+                    <p>Golden Crunch Burger</p>
+                </div>
+                <div class="scontainer-bottom">
+                    <div class="price">
+                        <p>$60.99</p>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sfoodcontainer">
+                <div class="scontainer-head">
+                    <img src="images/pexels-enginakyurt-1552635.jpg" alt="Mushroom Medley Pizza">
+                    <p>Mushroom Medley Pizza</p>
+                </div>
+                <div class="scontainer-bottom">
+                    <div class="price">
+                        <p>$45.99</p>
+                    </div>
+                    <div class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About us</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/pexels-photo-by-twelfth-night-1105439946-26925530.jpg" alt="asdsd">
+            </div>
+            <div class="content">
+                <p>Welcome to The Pizza Burger Joint, your ultimate destination for mouthwatering burgers and delicious pizzas! Our passion for food drives us to create the best culinary experiences for our customers.</p>
+                <p>Founded in 2003, we are dedicated to serving high-quality ingredients and unique flavors in every bite. Our burgers are made from 100% premium beef, seasoned to perfection, and cooked to order. Each pizza is crafted with fresh dough and topped with the finest ingredients, ensuring a delightful taste that will keep you coming back for more.</p>
+                <p>At The Pizza Burger Joint, we believe that great food brings people together. Whether you are enjoying a meal with family, celebrating with friends, or simply indulging in a tasty treat, we are here to make every moment special.</p>
+                <p>Join us on this delicious journey and discover your new favorite meal. Thank you for choosing The Pizza Burger Joint where every bite is a celebration of flavor!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1>Reviews</h1>
+        <div class="reviewbox">
+            <div class="reviewcontainer">
+                <div class="rcontainer-head">
+                    <div class="profile">
+                        <img src="images/portrait-4599553_640.jpg" alt="" class="portrait">
+                        <h2>Sophia Martinez</h2>
+                    </div>
+                    <div class="comment">
+                        <img src="images/vecteezy_chat-icon-set-speech-bubble-icons-comment-icon-vectors_6309389.jpg" alt="" class="reviewimage">
+                    </div>
+               </div>
+                <p>I visited this restaurant with some friends recently, and we had an amazing experience! The burgers were absolutely delicious; the patties were perfectly cooked, and the buns were super fresh. I especially recommend trying the 'Mega Stack Burger' on the menu the sauce was fantastic!</p>
+                <img src="images/five-stars-7292866_640.png" alt="" class="stars">
+            </div>
+            <div class="reviewcontainer">
+                <div class="rcontainer-head">
+                    <div class="profile">
+                        <img src="images/pexels-jibarofoto-1759530.jpg" alt="" class="portrait">
+                        <h2>Liam Anderson</h2>
+                    </div>
+                    <div class="comment">
+                        <img src="images/vecteezy_chat-icon-set-speech-bubble-icons-comment-icon-vectors_6309389.jpg" alt="" class="reviewimage">
+                    </div>
+               </div>
+                <p>I recently dined at The Pizza Burger Joint with my family, and it was a delightful experience! The Mozzarella Dream Pizza was the highlight; the cheese was gooey and flavorful, and the crust was perfectly crisp. The staff were friendly and attentive. We cannot wait to come back!</p>
+                <img src="images/five-stars-7292866_640.png" alt="" class="stars">
+            </div>
+            <div class="reviewcontainer">
+                <div class="rcontainer-head">
+                    <div class="profile">
+                        <img src="images/pexels-gabby-k-7139372.jpg" alt="" class="portrait">
+                        <h2>Maya Johnson</h2>
+                    </div>
+                    <div class="comment">
+                        <img src="images/vecteezy_chat-icon-set-speech-bubble-icons-comment-icon-vectors_6309389.jpg" alt="" class="reviewimage">
+                    </div>
+               </div>
+                <p>Last weekend, my family and I went to The Pizza Burger Joint, and we had an awesome time! I was so excited looking at the menu because everything looked so yummy. My mom ordered the Mozzarella Pizza, and I liked that; the cheese was so tasty! I can't wait to go back to this restaurant again!</p>
+                <img src="images/five-stars-7292866_640.png" alt="" class="stars">
+            </div>
+            <div class="reviewcontainer">
+                <div class="rcontainer-head">
+                    <div class="profile">
+                        <img src="images/portrait-657116_640.jpg" alt="" class="portrait">
+                        <h2>Grace Miller</h2>
+                    </div>
+                    <div class="comment">
+                        <img src="images/vecteezy_chat-icon-set-speech-bubble-icons-comment-icon-vectors_6309389.jpg" alt="" class="reviewimage">
+                    </div>
+               </div>
+                <p>Absolutely loved my experience here! The Mega Stack Burger was phenomenal. We also tried the pepperoni pizza, and it was loaded with toppings, definitely a crowd-pleaser. The service was friendly, and the vibe was relaxed. Highly recommend this spot for a fun night out!</p>
+                <img src="images/five-stars-7292866_640.png" alt="" class="stars">
+            </div>
+            <div class="reviewcontainer">
+                <div class="rcontainer-head">
+                    <div class="profile">
+                        <img src="images/man-8847069_640.jpg" alt="" class="portrait">
+                        <h2>Noah Smith</h2>
+                    </div>
+                    <div class="comment">
+                        <img src="images/vecteezy_chat-icon-set-speech-bubble-icons-comment-icon-vectors_6309389.jpg" alt="" class="reviewimage">
+                    </div>
+               </div>
+                <p>This place is a hidden gem! I ordered The Spicy Sausage Pizza, and it was one of the best I have ever had. The crust was thin and crispy, and the combination of flavors was spot on. If you are in the mood for a casual meal with great food, this is the place to be!</p>
+                <img src="images/five-stars-7292866_640.png" alt="" class="stars">
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact us</h1>
+        <form>
+            <fieldset>
+                <legend>Get in Touch</legend>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="name" required>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="email" required>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" placeholder="phone" required>
+                </div>
+                <div>
+                    <i class="fa-solid fa-comment"></i>
+                    <textarea placeholder="feedback" required></textarea>
+                </div>
+                <input type="submit" class="btn" value="Contact Now">
+            </fieldset>
+        </form>
+    </section>
+    <section class="footer">
+        <div class="social">
+            <div class="icons">
+                <a href="#">
+                    <i class="fab fa-twitter"></i> 
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="fnavbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#specials">Specials</a>
+                <a href="#reviews">Review</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>The Pizza Burger Joint | All Rights Reserved</p>
+        </div>
+    </section>   
+</body>
+</html>
